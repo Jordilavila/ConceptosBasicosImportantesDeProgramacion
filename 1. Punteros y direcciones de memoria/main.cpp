@@ -43,6 +43,7 @@ void parte1_anexo4(int &a, int &b) {
  * Como podemos ver, la estaremos inicializando con el número 17.
  */
 void parte1() {
+    cout << "PARTE 1" << endl;
     int variable = 17;  // Aquí estamos creando una variable entera cuyo nombre es variable. Además, la inicializamos con el valor 17
     variable = 15;      // Aquí le estamos asignando el número 15
 
@@ -102,22 +103,27 @@ void parte1() {
     cout << "A: " << a << " B: " << b << endl;
     parte1_anexo4(a, b);
     cout << "A: " << a << " B: " << b << endl;
-
+    cout << "FIN PARTE 1" << endl;
 }
 
 /**
  * En esta función vamos a ver el uso de la memoria dinámica. Un concepto CRUCIAL para poder aprobar P2 y todo lo que venga después.
  */
 void parte2() {
+    cout << "PARTE 2" << endl;
     const int vecSize = 5;
     int *v = NULL;      // Estamos declarando un PUNTERO que se llama v. OJO: NO ES UNA VARIABLE Y NO SE PUEDE USAR COMO TAL
 
     v = new int[vecSize];     // Ahora estamos reservando CINCO espacios en la memoria de manera DINÁMICA. El modo estático sería este:
     int estatico[vecSize];    // Esto sería una reserva ESTÁTICA, que NO de puede borrar ni modificar, a diferencia de una reserva DINÁMICA
 
-    for(int i=0; i<vecSize; i++)
-        v[i] = i+1;
-    
+    for(int i=0; i<vecSize; i++) v[i] = i+1;
+
+    cout << "int dinámico: " << endl;
+    for(int i=0; i<vecSize; i++) {
+        cout << "Valor en la posición " << i << ": " << v[i] << endl;
+    }
+
     delete[] v;         // Aquí estaríamos liberando la memoria dinámica que le habíamos pedido al sistema, que es OBLIGATORIO y NUESTRA RESPONSABILIDAD
 
     // Mismo ejemplo para un tipo de dato definido por el desarrollador.:
@@ -125,13 +131,18 @@ void parte2() {
     for (int i = 0; i < vecSize; i++) {
         content[i].setValue(i+1);
     }
+
+    cout << "Vector tipo Content dinámico: " << endl;
+    for(int i=0; i<vecSize; i++) {
+        cout << "Valor en la posición " << i << ": " << content[i].getValue() << endl;
+    }
+
     delete[] content;
+    cout << "FIN PARTE 2" << endl;
 }
 
 int main() {
-    
     parte1();
     parte2();
-
     return 0;
 }
