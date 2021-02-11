@@ -2,6 +2,22 @@
 
 using namespace std;
 
+// Clase Content
+class Content {
+private:
+    int value;
+
+public:
+    Content() {}
+    Content(int value) {
+        this->value = value;
+    }
+    int getValue() { return this->value; }
+    void setValue(int newValue) { this->value = newValue; }
+    ~Content() {}
+};
+
+// Anexos parte 1
 void parte1_anexo1(int var) {
     var = 10;   // Valor
 }
@@ -89,9 +105,33 @@ void parte1() {
 
 }
 
+/**
+ * En esta función vamos a ver el uso de la memoria dinámica. Un concepto CRUCIAL para poder aprobar P2 y todo lo que venga después.
+ */
+void parte2() {
+    const int vecSize = 5;
+    int *v = NULL;      // Estamos declarando un PUNTERO que se llama v. OJO: NO ES UNA VARIABLE Y NO SE PUEDE USAR COMO TAL
+
+    v = new int[vecSize];     // Ahora estamos reservando CINCO espacios en la memoria de manera DINÁMICA. El modo estático sería este:
+    int estatico[vecSize];    // Esto sería una reserva ESTÁTICA, que NO de puede borrar ni modificar, a diferencia de una reserva DINÁMICA
+
+    for(int i=0; i<vecSize; i++)
+        v[i] = i+1;
+    
+    delete[] v;         // Aquí estaríamos liberando la memoria dinámica que le habíamos pedido al sistema, que es OBLIGATORIO y NUESTRA RESPONSABILIDAD
+
+    // Mismo ejemplo para un tipo de dato definido por el desarrollador.:
+    Content *content = new Content[vecSize];
+    for (int i = 0; i < vecSize; i++) {
+        content[i].setValue(i+1);
+    }
+    delete[] content;
+}
+
 int main() {
     
     parte1();
+    parte2();
 
     return 0;
 }
