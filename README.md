@@ -26,4 +26,4 @@ Y luego, para limpiar el proyecto de C# una vez visto como funciona:
 
 Espero que os sirva. Un saludo a todos y a todas.
 
-Jordi Sellés Enríquez.
+**Jordi Sellés Enríquez**.
