@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jordi\\GitHub\\ConceptosImportantesParaTrabajarHADA\\3. Herencia, extension e implementacion\\En C#\\En C#.csproj": {}
+    "C:\\Users\\jordi\\GitHub\\ConceptosImportantesParaTrabajarHADA\\4. Manejo de excepciones\\4. Manejo de excepciones.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jordi\\GitHub\\ConceptosImportantesParaTrabajarHADA\\3. Herencia, extension e implementacion\\En C#\\En C#.csproj": {
+    "C:\\Users\\jordi\\GitHub\\ConceptosImportantesParaTrabajarHADA\\4. Manejo de excepciones\\4. Manejo de excepciones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jordi\\GitHub\\ConceptosImportantesParaTrabajarHADA\\3. Herencia, extension e implementacion\\En C#\\En C#.csproj",
-        "projectName": "En C#",
-        "projectPath": "C:\\Users\\jordi\\GitHub\\ConceptosImportantesParaTrabajarHADA\\3. Herencia, extension e implementacion\\En C#\\En C#.csproj",
+        "projectUniqueName": "C:\\Users\\jordi\\GitHub\\ConceptosImportantesParaTrabajarHADA\\4. Manejo de excepciones\\4. Manejo de excepciones.csproj",
+        "projectName": "4. Manejo de excepciones",
+        "projectPath": "C:\\Users\\jordi\\GitHub\\ConceptosImportantesParaTrabajarHADA\\4. Manejo de excepciones\\4. Manejo de excepciones.csproj",
         "packagesPath": "C:\\Users\\jordi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jordi\\GitHub\\ConceptosImportantesParaTrabajarHADA\\3. Herencia, extension e implementacion\\En C#\\obj\\",
+        "outputPath": "C:\\Users\\jordi\\GitHub\\ConceptosImportantesParaTrabajarHADA\\4. Manejo de excepciones\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
