@@ -2,3 +2,15 @@ main
 *.o
 *.vscode
 .classpath
+*.suo
+/build/
+*.sdf
+/bin/
+/obj/
+[Dd]ebug/
+[Rr]elease/
+*.opensdf
+*.tlog
+*.log
+TestResult.xml
+*.VisualState.xml
