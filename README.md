@@ -9,7 +9,19 @@ Aquí detallo unos conceptos que considero importantes a la hora de prepararse p
 Cabe destacar también que las carpetas 1 y 2 son proyectos pequeños de C/C++ donde hay un archivo ```makefile``` por proyecto, esto se encarga de montar el proyecto y compilarlo, pero funcionará sólo en Unix. Para hacerlo funcionar basta, desde la misma carpeta de donde está, ejecutar lo siguiente en una terminal:
 
 ```bash
-$ make
+  $ make
+```
+
+Por otra parte, para correr los proyectos de C# deberéis tener el SDK instalado. El sistema operativo es irrelevante. I se ejecuta tal que así:
+
+```powershell
+  PS C:\> dotnet run
+```
+
+Y luego, para limpiar el proyecto de C# una vez visto como funciona:
+
+```powershell
+  PS C:\> dotnet clean
 ```
 
 Espero que os sirva. Un saludo a todos y a todas.
