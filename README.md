@@ -1,11 +1,13 @@
-# Conceptos importantes para trabajar HADA
+# Conceptos básicos importantes de programación
 
 ![Languaje](https://img.shields.io/badge/Languaje-C%2FC%2B%2B-blue)
 ![Languaje](https://img.shields.io/badge/Languaje-C%23-blueviolet)
 ![Languaje](https://img.shields.io/badge/Languaje-Java-yellow)
 [![Build](https://img.shields.io/badge/Build-Download%20ZIP-brightgreen)](https://github.com/Jordilavila/ConceptosImportantesParaTrabajarHADA/raw/main/ConceptosImportantesParaTrabajarHADA.zip)
 
-Aquí detallo unos conceptos que considero importantes a la hora de prepararse para trabajar la asignatura de Herramientas Avanzadas para el Desarrollo de Aplicaciones de la Universitat d'Alacant. Creo que los conceptos que se detallan, son básicos en el mundo de la programación y merecen su ampliación y estudio por parte del interesado o la interesada. Esto no es más que un breve repaso y recuerdo de algunos conceptos básicos de P1, P2 y P3, necesarios para afrontar esta nueva asignatura. Los conceptos que se detallan en los subproyectos 1, 2 y 5 sirven también para todo estudiante de primero de carrera, sobretodo, el uso de punteros, manejo simple de clases y uso de la STL de C++.
+Este repositorio fue creado pensando en la materia _Herramientas Avanzadas para el Desarrollo de Aplicaciones_, _HADA_ de ahora en adelante, pero se ha convertido en una especie de manual para cualquier persona que se inicie en el mundo de la programación. Esto fue pensado para prepararse para afrontar _HADA_, ya que programamos con _C#_
+
+Creo que los conceptos que se detallan, son básicos en el mundo de la programación y merecen su ampliación y estudio por parte del interesado o la interesada. Esto no es más que un breve repaso y recuerdo de algunos conceptos básicos de P1, P2 y P3, necesarios para afrontar esta nueva asignatura. Los conceptos que se detallan en los subproyectos 1, 2 y 5 sirven también para todo estudiante de primero de carrera, sobretodo, el uso de punteros, manejo simple de clases y uso de la STL de C++.
 
 Cabe destacar también que las carpetas 1, 2 y 5 son proyectos pequeños de C/C++ donde hay un archivo ```makefile``` por proyecto, esto se encarga de montar el proyecto y compilarlo, pero funcionará sólo en Unix. Para hacerlo funcionar basta, desde la misma carpeta de donde está, ejecutar lo siguiente en una terminal:
 
